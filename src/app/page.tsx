@@ -40,7 +40,7 @@ const RECENT_TRANSACTIONS = [
 
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col gap-8 p-6">
+    <div className="flex flex-1 flex-col gap-10 pl-[92px] pr-[128px] py-8">
       {/* Total balance + actions */}
       <section className="space-y-4">
         <h2 className="text-sm font-medium text-muted-foreground">Total balance</h2>
